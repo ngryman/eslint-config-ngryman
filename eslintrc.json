@@ -1,6 +1,7 @@
 {
   "env": {
-    "es6": true
+    "es6": true,
+    "node": true
   },
 
   "rules": {
@@ -41,7 +42,7 @@
     "no-caller": 2,
     "no-catch-shadow": 0,
     "no-cond-assign": 2,
-    "no-console": 2,
+    "no-console": 0,
     "no-constant-condition": 2,
     "no-continue": 0,
     "no-control-regex": 2,
@@ -54,7 +55,7 @@
     "no-else-return": 2,
     "no-empty": 2,
     "no-empty-character-class": 2,
-    "no-empty-label": 2,
+    "no-labels": 2,
     "no-eq-null": 0,
     "no-eval": 2,
     "no-ex-assign": 2,
@@ -138,15 +139,14 @@
     "semi": [2, "never"],
     "semi-spacing": 0,
     "sort-vars": 0,
-    "space-after-keywords": [2, "always"],
+    "keyword-spacing": [2, { "before": false, "after": true, "overrides": { "return": { "before": true }, "from": { "before": true }}}],
     "space-before-blocks": [2, "always"],
     "space-before-function-paren": [2, "never"],
     "space-in-parens": [2, "never"],
     "space-infix-ops": 2,
-    "space-return-throw-case": 2,
     "space-unary-ops": [2, { "words": true, "nonwords": false }],
     "spaced-comment": 0,
-    "strict": [2, "global"],
+    "strict": 0,
     "use-isnan": 2,
     "valid-jsdoc": [2, { "requireReturn": false, "requireParamDescription": false, "requireReturnDescription": false }],
     "valid-typeof": 2,
