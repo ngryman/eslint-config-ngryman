@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ngryman",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "My personal taste in a package.",
   "author": "Nicolas Gryman <ngryman@gmail.com> (http://ngryman.sh)",
   "license": "MIT",
