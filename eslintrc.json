@@ -4,6 +4,10 @@
     "node": true
   },
 
+  "parserOptions": {
+    "sourceType": "module"
+  },
+
   "rules": {
     "accessor-pairs": 2,
     "block-scoped-var": 0,
