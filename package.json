@@ -4,7 +4,7 @@
   "description": "My personal taste in a package.",
   "author": "Nicolas Gryman <ngryman@gmail.com> (http://ngryman.sh)",
   "license": "MIT",
-  "repository": "ngryman/eslint-config/ngryman",
+  "repository": "ngryman/eslint-config-ngryman",
   "keywords": [
     "eslint",
     "eslintconfig",
