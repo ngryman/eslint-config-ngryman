@@ -5,11 +5,12 @@
   },
 
   "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module",
     "ecmaFeatures": {
       "impliedStrict": true,
       "experimentalObjectRestSpread": true
-    },
-    "sourceType": "module"
+    }
   },
 
   "rules": {
